@@ -1,17 +1,19 @@
 
 
 
-.container {
+header {
   display: flex;
   font-family: Verdana;
   font-size: 14px;
   font-weight: bold;
   border-bottom: 1px solid black;
+  align-items: center;
+
 }
 
-.container span {
+header span {
   color: MediumAquamarine;
-    align-items: center;
+
 }
 
 
@@ -23,12 +25,13 @@
   display: flex;
   padding: 10px;
   align-items: center;
+  margin-left: 15px;
+  flex-grow: 1;
 }
-
 nav {
+  display: flex;
 
-  justify-content: flex-end;
-  align-items: center;
+
 }
 
 nav span {
