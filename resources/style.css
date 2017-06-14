@@ -66,10 +66,10 @@ a {
   display: flex;
 }
 
-.column.medium {
+#column-medium {
   width: 300px;
 }
 
-.column.small {
+#column-small {
   width: 240px;
 }
