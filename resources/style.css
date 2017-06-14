@@ -1,5 +1,6 @@
 
 
+/*HEADER------------------------------*/
 
 header {
   display: flex;
@@ -8,12 +9,13 @@ header {
   font-weight: bold;
   border-bottom: 1px solid black;
   align-items: center;
-
+  z-index: 10;
+  position: fixed;
+  width: 100%;
 }
 
 header span {
   color: MediumAquamarine;
-
 }
 
 
@@ -28,10 +30,9 @@ header span {
   margin-left: 15px;
   flex-grow: 1;
 }
+
 nav {
-  display: flex;
-
-
+  margin-right: 40px;
 }
 
 nav span {
@@ -41,4 +42,34 @@ nav span {
 
 a {
   color: black;
+}
+
+/* MAIN SECTION ------------------------------------------*/
+
+/* borders to erase later*/
+#mother,
+#orca,
+#earth,
+#burger,
+#camera {
+  border: 1px solid red;
+}
+
+#main-container {
+  display: flex;
+  padding-top: 80px;
+  border: 2px solid blue;
+}
+
+#column-large {
+  width: 630px;
+  display: flex;
+}
+
+.column.medium {
+  width: 300px;
+}
+
+.column.small {
+  width: 240px;
 }
