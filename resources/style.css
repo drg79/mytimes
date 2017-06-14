@@ -51,7 +51,12 @@ a {
 #orca,
 #earth,
 #burger,
-#camera {
+#camera,
+#fbi,
+#cat,
+#brooklyn,
+#cookie,
+#bites {
   border: 1px solid red;
 }
 
@@ -59,17 +64,35 @@ a {
   display: flex;
   padding-top: 80px;
   border: 2px solid blue;
+  justify-content: center;
+  align-items: center;
 }
 
-#column-large {
+.column {
+  display: flex;
+  margin-top: 20px;
+  flex-direction: column;
+}
+
+.column#large {
   width: 630px;
   display: flex;
 }
 
-#column-medium {
+.column#medium {
   width: 300px;
 }
 
-#column-small {
+.column#small {
   width: 240px;
+}
+/*images*/
+
+
+
+/*text font editing*/
+.story {
+  font-family: Georgia;
+  font-size: 17px;
+  color: black;
 }
