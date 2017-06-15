@@ -47,20 +47,7 @@ a {
 
 /* MAIN SECTION ------------------------------------------*/
 
-/* borders to erase later*/
-#mother,
-#orca,
-#earth,
-#burger,
-#camera,
-#fbi,
-#cat,
-#brooklyn,
-#cookie,
-#bites {
-  border: 1px solid red;
 
-}
 
 #main-container {
   display: flex;
@@ -68,19 +55,22 @@ a {
   border: 2px solid blue;
   justify-content: center;
   align-items: flex-start;
+
 }
 
 .column {
   display: flex;
   margin-top: 20px;
   flex-direction: column;
-  height: 100%;
+
+
 }
 
 .column#large {
   width: 630px;
   margin: 20px;
   display: flex;
+
 }
 
 .column#medium {
@@ -93,7 +83,32 @@ a {
   width: 240px;
   margin: 20px;
   display: flex;
+  flex-direction: column;
 }
+
+.newsbites .headline {
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+
+}
+
+.newsbites span {
+  background-color: WhiteSmoke;
+  font-family: Verdana;
+  font-size: 12px;
+  color: DimGray;
+  flex-direction: column;
+  display: flex;
+  margin: 0;
+  
+  border-bottom: 1px solid black;
+
+  padding: 15px;
+}
+
 /*images*/
 
 .headline#main {
