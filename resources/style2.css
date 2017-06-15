@@ -1,0 +1,255 @@
+
+/*borders to erase*/
+
+div {
+  border: 1px solid red;
+}
+/*HEADER------------------------------*/
+
+header {
+  display: flex;
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+  border-bottom: 1px solid black;
+  align-items: center;
+  z-index: 10;
+  position: fixed;
+  width: 100%;
+  background-color: white;
+
+}
+
+header span {
+  color: MediumAquamarine;
+}
+
+
+#logo img {
+  margin-right: 10px;
+}
+
+#logo {
+  display: flex;
+  padding: 10px;
+  align-items: center;
+  margin-left: 15px;
+  flex-grow: 1;
+}
+
+nav {
+  margin-right: 40px;
+}
+
+nav span {
+  display: inline-block;
+  padding: 15px;
+}
+
+a {
+  color: black;
+}
+
+/* MAIN SECTION ------------------------------------------*/
+
+
+
+.main-container {
+  display: flex;
+  padding-top: 80px;
+  justify-content: center;
+
+}
+
+.main-container .large {
+  display: flex;
+  width: 630px;
+  flex-direction: column;
+}
+
+.article{
+  display: block;
+}
+
+.headline: {
+  display: block;
+}
+
+/* images */
+.mother .headline {
+    background-image: url("./images/img-story-main.png");
+    display: flex;
+}
+
+.image .earth {
+  background-image: url("./images/img-story-fall.png");
+  display: flex;
+  background-size: cover;
+}
+
+.image .camera {
+  background-image: url("./images/img-story-camera.png");
+  display: flex;
+  
+  background-size: cover;
+}
+
+.image {
+  width: 100%;
+}
+/*
+}
+
+.column {
+  display: flex;
+  margin-top: 20px;
+
+
+
+}
+
+.column#large {
+  width: 630px;
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+
+}
+
+.column#medium {
+  width: 300px;
+  margin: 20px;
+  display: flex;
+}
+
+.column#small {
+  width: 240px;
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+#mother {
+  display: block;
+}
+
+.newsbites .headline {
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+
+}
+
+.newsbites span {
+  background-color: WhiteSmoke;
+  font-family: Verdana;
+  font-size: 12px;
+  color: DimGray;
+  flex-direction: column;
+  display: flex;
+  margin: 0;
+
+  border-bottom: 1px solid black;
+
+  padding: 15px;
+}
+
+/*images*/
+/*
+.headline#main
+
+#earth {
+  background-image: url("./images/img-story-fall.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#camera {
+  background-image: url("./images/img-story-camera.png");
+}
+
+#cat {
+  background-image: url("./images/img-story-cat.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.article {
+  display: block;
+  justify-content: space-between;
+}
+.image {
+  display: flex;
+}
+/*
+
+.story {
+  font-family: Georgia;
+  font-size: 17px;
+  color: black;
+  display: 	block;
+}
+
+#cat,
+#earth,
+#camera .headline {
+font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+}
+
+
+#mother .headline {
+font-family: Georgia;
+  font-weight: bold;
+  font-size: 40px;
+  color: white;
+}
+
+/* FOOTER------------------*/
+/*
+footer {
+  display: flex;
+  flex-direction: column;
+  background-color: MediumAquamarine;
+  margin: auto;
+  font-family: Verdana;
+  font-size: 12px;
+  justify-content: center;
+  align-items: center;
+  height: 325px;
+  width: 100%;
+  border: 1px solid red;
+}
+
+#title {
+    border-right: 2px solid white
+}
+
+footer #title {
+  padding-right: 20px;
+  border-right: 2px solid white
+  font-family: Georgia;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+
+
+}
+
+.main-footer {
+  display: block;
+  background-color: red;
+}
+
+footer a {
+  padding: 20px;
+
+}
+
+.copyright {
+  display: block;
+}
