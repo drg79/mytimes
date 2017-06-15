@@ -62,7 +62,7 @@ a {
 .column {
   display: flex;
   margin-top: 20px;
-  flex-direction: column;
+
 
 
 }
@@ -71,6 +71,7 @@ a {
   width: 630px;
   margin: 20px;
   display: flex;
+  flex-direction: column;
 
 }
 
@@ -85,6 +86,10 @@ a {
   margin: 20px;
   display: flex;
   flex-direction: column;
+}
+
+#mother {
+  display: block;
 }
 
 .newsbites .headline {
@@ -114,6 +119,7 @@ a {
 
 .headline#main {
   background-image: url("./images/img-story-main.png");
+  display: flex;
 }
 
 #earth {
@@ -132,13 +138,20 @@ a {
   background-size: cover;
 }
 
-
+.article {
+  display: block;
+  justify-content: space-between;
+}
+.image {
+  display: flex;
+}
 
 /*text font editing*/
 .story {
   font-family: Georgia;
   font-size: 17px;
   color: black;
+  display: 	block;
 }
 
 #cat,
@@ -162,7 +175,7 @@ font-family: Georgia;
 
 footer {
   display: flex;
-
+  flex-direction: column;
   background-color: MediumAquamarine;
   margin: auto;
   font-family: Verdana;
@@ -170,20 +183,28 @@ footer {
   justify-content: center;
   align-items: center;
   height: 325px;
+  width: 100%;
+  border: 1px solid red;
+}
+
+#title {
+    border-right: 2px solid white
 }
 
 footer #title {
-
   padding-right: 20px;
   border-right: 2px solid white
   font-family: Georgia;
   font-size: 16px;
   font-weight: bold;
   color: white;
+
+
 }
 
 .main-footer {
-  display: inline-block;
+  display: block;
+  background-color: red;
 }
 
 footer a {
@@ -191,6 +212,6 @@ footer a {
 
 }
 
-footer .copyright {
+.copyright {
   display: block;
 }
