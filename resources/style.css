@@ -12,6 +12,7 @@ header {
   z-index: 10;
   position: fixed;
   width: 100%;
+  background-color: white;
 }
 
 header span {
@@ -58,6 +59,7 @@ a {
 #cookie,
 #bites {
   border: 1px solid red;
+
 }
 
 #main-container {
@@ -65,28 +67,35 @@ a {
   padding-top: 80px;
   border: 2px solid blue;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
 }
 
 .column {
   display: flex;
   margin-top: 20px;
   flex-direction: column;
+  height: 100%;
 }
 
 .column#large {
   width: 630px;
+  margin: 20px;
   display: flex;
 }
 
 .column#medium {
   width: 300px;
+  margin: 20px;
+  display: flex;
 }
 
 .column#small {
   width: 240px;
+  margin: 20px;
+  display: flex;
 }
 /*images*/
+
 .headline#main {
   background-image: url("./images/img-story-main.png");
 }
