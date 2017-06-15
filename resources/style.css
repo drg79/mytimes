@@ -13,6 +13,7 @@ header {
   position: fixed;
   width: 100%;
   background-color: white;
+
 }
 
 header span {
@@ -103,7 +104,7 @@ a {
   flex-direction: column;
   display: flex;
   margin: 0;
-  
+
   border-bottom: 1px solid black;
 
   padding: 15px;
@@ -117,6 +118,8 @@ a {
 
 #earth {
   background-image: url("./images/img-story-fall.png");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 #camera {
@@ -125,6 +128,8 @@ a {
 
 #cat {
   background-image: url("./images/img-story-cat.png");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 
@@ -150,5 +155,25 @@ font-family: Georgia;
 font-family: Georgia;
   font-weight: bold;
   font-size: 40px;
+  color: white;
+}
+
+/* FOOTER------------------*/
+
+footer {
+  display: flex;
+  background-color: MediumAquamarine;
+  margin: auto;
+  font-family: Verdana;
+  font-size: 12px;
+  justify-content: center;
+  align-items: center;
+}
+
+.footname {
+  
+  font-family: Georgia;
+  font-size: 16px;
+  font-weight: bold;
   color: white;
 }
