@@ -162,18 +162,35 @@ font-family: Georgia;
 
 footer {
   display: flex;
+
   background-color: MediumAquamarine;
   margin: auto;
   font-family: Verdana;
   font-size: 12px;
   justify-content: center;
   align-items: center;
+  height: 325px;
 }
 
-.footname {
-  
+footer #title {
+
+  padding-right: 20px;
+  border-right: 2px solid white
   font-family: Georgia;
   font-size: 16px;
   font-weight: bold;
   color: white;
+}
+
+.main-footer {
+  display: inline-block;
+}
+
+footer a {
+  padding: 20px;
+
+}
+
+footer .copyright {
+  display: block;
 }
