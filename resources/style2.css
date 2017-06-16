@@ -66,6 +66,18 @@ a {
   flex-direction: column;
 }
 
+.main-container .medium {
+  display: flex;
+  width: 300px;
+  flex-direction: column;
+}
+
+.main-container .small {
+  display: flex;
+  width: 240px;
+  flex-direction: column;
+}
+
 .four-stories {
   display: flex;
   justify-content: space-between;
@@ -86,6 +98,12 @@ a {
 }
 
 /* images */
+
+.image {
+  height: 300px;
+  display: flex;
+}
+
 .mainstory .headline {
     background-image: url("./images/img-story-main.png");
     display: flex;
@@ -99,11 +117,11 @@ a {
   background-image: url("./images/img-story-camera.png");
 }
 
-.image {
-  height: 300px;
-
-  display: flex;
+.imagestory .cat {
+  background-image: url("./images/img-story-cat.png");
 }
+
+
 
 /*
 }
