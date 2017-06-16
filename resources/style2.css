@@ -116,7 +116,7 @@ h2 {
 }
 
 .main-headline {
-  font-size: 60px;
+  font-size: 40px;
   color: white;
 }
 
@@ -127,7 +127,7 @@ h3 {
 
 /* images */
 
-.image {
+.imagestory {
   height: 300px;
   display: flex;
 }
@@ -149,25 +149,15 @@ h3 {
   background-image: url("./images/img-story-cat.png");
 }
 
-
-
-/*
-}
-
-
-
-
-
-.newsbites .headline {
+.newsbites h3 {
   font-size: 16px;
   font-weight: bold;
   text-align: center;
   padding-top: 20px;
   padding-bottom: 20px;
-
 }
 
-.newsbites span {
+.bite {
   background-color: WhiteSmoke;
   font-family: Verdana;
   font-size: 12px;
@@ -180,44 +170,14 @@ h3 {
 
   padding: 15px;
 }
-
-/
-
-.article {
-  display: block;
-  justify-content: space-between;
-}
-.image {
-  display: flex;
-}
 /*
-
-.story {
-  font-family: Georgia;
-  font-size: 17px;
-  color: black;
-  display: 	block;
-}
-
-#cat,
-#earth,
-#camera .headline {
-font-family: Georgia;
-  font-weight: bold;
-  font-size: 30px;
-  color: white;
 }
 
 
-#mother .headline {
-font-family: Georgia;
-  font-weight: bold;
-  font-size: 40px;
-  color: white;
-}
+
 
 /* FOOTER------------------*/
-/*
+
 footer {
   display: flex;
   flex-direction: column;
@@ -232,11 +192,11 @@ footer {
   border: 1px solid red;
 }
 
-#title {
+.title {
     border-right: 2px solid white
 }
 
-footer #title {
+footer span {
   padding-right: 20px;
   border-right: 2px solid white
   font-family: Georgia;
@@ -247,9 +207,8 @@ footer #title {
 
 }
 
-.main-footer {
+.info {
   display: block;
-  background-color: red;
 }
 
 footer a {
