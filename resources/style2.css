@@ -16,7 +16,9 @@ header {
   z-index: 10;
   position: fixed;
   width: 100%;
+  height: 80px;
   background-color: white;
+
 
 }
 
@@ -37,12 +39,10 @@ header span {
   flex-grow: 1;
 }
 
-nav {
-  margin-right: 40px;
-}
+
 
 nav span {
-  display: inline-block;
+  
   padding: 15px;
 }
 
@@ -92,8 +92,9 @@ a {
   display: block;
 }
 
-.headline: {
-  display: block;
+.headline {
+  display: flex;
+
 }
 
 /* text*/
@@ -109,20 +110,24 @@ h2 {
   font-weight: bold;
   font-size: 30px;
   color: black;
+  margin: auto;
+
 }
 
 .imagestory h2 {
   color: white;
+  text-align: center;
+  display: block;
+
+
 }
 
 .main-headline {
   font-size: 40px;
   color: white;
+  margin-left: 20px;
 }
 
-h3 {
-
-}
 
 
 /* images */
@@ -130,23 +135,29 @@ h3 {
 .imagestory {
   height: 300px;
   display: flex;
+  justify-content: center;
 }
 
 .mainimage {
     background-image: url("./images/img-story-main.png");
     display: flex;
+    height: 300px;
 }
 
 .imagestory .earth {
   background-image: url("./images/img-story-fall.png");
+  display: flex;
+
 }
 
 .imagestory .camera {
   background-image: url("./images/img-story-camera.png");
+  display: flex;
 }
 
 .imagestory .cat {
   background-image: url("./images/img-story-cat.png");
+  display: flex;
 }
 
 .newsbites h3 {
@@ -193,14 +204,14 @@ footer {
 }
 
 .title {
-    border-right: 2px solid white
+    border-right: 2px solid white;
+    font-family: Georgia;
+    font-size: 16px;
+    font-weight: bold;
 }
 
 footer span {
   padding-right: 20px;
-  font-family: Georgia;
-  font-size: 16px;
-  font-weight: bold;
   color: white;
 }
 
@@ -210,7 +221,11 @@ footer span {
 }
 
 footer a {
-  padding: 20px;
+  padding: 8px;
+}
+
+footer nav {
+  padding-left: 25px;
 }
 
 .copyright {
